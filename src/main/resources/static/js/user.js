@@ -13,7 +13,10 @@ let index = {
 			let data = {
 					username: $("#username").val(),
 					password: $("#password").val(),
-					email: $("#email").val()
+					email: $("#email").val(),
+					name: $("#name").val(),
+					birthday: $("#birthday").val(),
+					job: $("#job").val()
 			};
 			
 			//console.log(data);

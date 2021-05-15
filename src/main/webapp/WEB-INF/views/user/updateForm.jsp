@@ -21,7 +21,22 @@
 			<label for="email">Email</label> 
 			<input type="email" value="${principal.user.email}" class="form-control" placeholder="Enter email" id="email" readonly>
 		</div>
-		
+
+        <div class="form-group">
+            <label for="name">Email</label>
+            <input type="name" value="${principal.user.name}" class="form-control" placeholder="Enter name" id="name" readonly>
+        </div>
+
+        <div class="form-group">
+            <label for="birthday">Email</label>
+            <input type="birthday" value="${principal.user.birthday}" class="form-control" placeholder="Enter birthday" id="birthday" readonly>
+        </div>
+
+        <div class="form-group">
+            <label for="job">Email</label>
+            <input type="job" value="${principal.user.job}" class="form-control" placeholder="Enter job" id="job" readonly>
+        </div>
+
 	</form>
 	<button id="btn-update" class="btn btn-primary">회원수정완료</button>
 

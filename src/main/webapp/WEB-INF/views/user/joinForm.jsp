@@ -18,7 +18,26 @@
 			<label for="email">Email</label> 
 			<input type="email" class="form-control" placeholder="Enter email" id="email">
 		</div>
-		
+
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="name" class="form-control" placeholder="Enter name" id="name">
+        </div>
+
+        <div class="form-group">
+            <label for="birthday">Birthday</label>
+            <input type="birthday" class="form-control" placeholder="Enter birthday" id="birthday">
+        </div>
+
+        <div class="form-group">
+            <label for="job">Job</label>
+            <input type="job" class="form-control" placeholder="Enter job" id="job">
+        </div>
+
+
+
+
+
 	</form>
 	<button id="btn-save" class="btn btn-primary">회원가입완료</button>
 
